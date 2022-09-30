@@ -54,7 +54,9 @@ ROOT_URLCONF = 'MVTMartinFuron.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            "C:\PYTHON\MVT+MartinFuron\MVTMartinFuron\MVTMartinFuron\templates"
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
