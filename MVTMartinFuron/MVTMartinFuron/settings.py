@@ -55,7 +55,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            "C:\PYTHON\MVT+MartinFuron\MVTMartinFuron\MVTMartinFuron\templates"
+            r"C:\Users\marti\Documents\GitHub\MVT-MARTINFURON\MVTMartinFuron\MVTMartinFuron\templates"
         ],
         'APP_DIRS': True,
         'OPTIONS': {
