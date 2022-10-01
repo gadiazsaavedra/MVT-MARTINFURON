@@ -9,5 +9,9 @@ class   familia(models.Model):
     apellido = models.CharField(max_length=40)
     telefono = models.CharField(max_length=40)
     email = models.EmailField()
+    mayor_de_edad = models.BooleanField()
+    cumpleaños= models.DateField()
+
+
 
 
